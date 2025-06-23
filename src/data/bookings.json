@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "event": "Wedding Reception",
+    "client": "Mr. Verma",
+    "date": "2025-07-15",
+    "status": "Pending"
+  },
+  { 
+    "id": "2",
+    "event": "Corporate Show",
+    "client": "ABC Ltd.",
+    "date": "2025-08-20",
+    "status": "Confirmed"
+  }
+]

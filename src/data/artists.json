@@ -1,0 +1,4 @@
+[
+  { "id": "1", "name": "Amit Sharma", "category": "Singer", "location": "Delhi", "price": "₹50,000", "image": "https://images.pexels.com/photos/6270257/pexels-photo-6270257.jpeg" },
+  { "id": "2", "name": "Ria Kapoor", "category": "Comedian", "location": "Mumbai", "price": "₹30,000", "image": "https://d14u0p1qkech25.cloudfront.net/461479562_4c288737-7486-4f34-a90a-a7acc7f57fd7_thumbnail_250x250" }
+]
