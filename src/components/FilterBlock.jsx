@@ -1,4 +1,3 @@
-
 const FilterBlock = ({ filters, setFilters }) => {
   const handleChange = (e) => {
     setFilters({ ...filters, [e.target.name]: e.target.value });

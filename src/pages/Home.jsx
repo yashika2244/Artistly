@@ -4,19 +4,19 @@ const Home = () => {
   const categories = [
     {
       name: "Singers",
-    img: "https://images.pexels.com/photos/6173832/pexels-photo-6173832.jpeg",
+      img: "https://images.pexels.com/photos/6173832/pexels-photo-6173832.jpeg",
     },
     {
       name: "Dancers",
-      img: "https://images.pexels.com/photos/270789/pexels-photo-270789.jpeg", 
+      img: "https://images.pexels.com/photos/270789/pexels-photo-270789.jpeg",
     },
     {
       name: "DJs",
-      img: "https://images.pexels.com/photos/17586742/pexels-photo-17586742.jpeg", 
+      img: "https://images.pexels.com/photos/17586742/pexels-photo-17586742.jpeg",
     },
     {
       name: "Comedians",
-      img: "https://media.istockphoto.com/id/2162878607/photo/young-woman-using-microphone-at-stage-stand-up-comedian.jpg?s=1024x1024&w=is&k=20&c=pPXBKdXc-joGHixC3GpNcOilUMVtXBjs4DYdpzbwpKY=", 
+      img: "https://media.istockphoto.com/id/2162878607/photo/young-woman-using-microphone-at-stage-stand-up-comedian.jpg?s=1024x1024&w=is&k=20&c=pPXBKdXc-joGHixC3GpNcOilUMVtXBjs4DYdpzbwpKY=",
     },
   ];
   return (
@@ -63,7 +63,6 @@ const Home = () => {
           🎨 Explore Popular Categories
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
-         
           {categories.map((cat, idx) => (
             <Link to="/artists" key={idx}>
               <div className="bg-gradient-to-tr from-pink-100 to-purple-200 rounded-2xl p-5 text-center shadow-md hover:shadow-2xl transition-transform transform hover:-translate-y-2 cursor-pointer">
@@ -124,7 +123,6 @@ const Home = () => {
           ))}
         </div>
       </div>
-
     </section>
   );
 };
