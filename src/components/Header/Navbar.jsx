@@ -90,7 +90,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-[#0e1d70] text-white px-6 py-4 shadow-md flex justify-between items-center fixed top-0 left-0 w-full z-50">
+    <nav className="bg-[#310b77]  text-white px-6 py-4 shadow-md flex justify-between items-center fixed top-0 left-0 w-full z-50">
       <Link to="/" className="font-bold text-2xl tracking-wide ">
         Artistly.com
       </Link>
@@ -112,9 +112,9 @@ const Navbar = () => {
       <div className="md:hidden">
         <button onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? (
-            <FiX className="hover:text-red-400 transition duration-300" size={26} />
+            <FiX className=" transition duration-300" size={26} />
           ) : (
-            <FiMenu className="hover:text-amber-400 transition duration-300" size={26} />
+            <FiMenu className=" transition duration-300" size={26} />
           )}
         </button>
       </div>
@@ -128,14 +128,14 @@ const Navbar = () => {
       >
         <div
           onClick={(e) => e.stopPropagation()}
-          className="absolute top-0 right-0 w-64 h-full bg-[#1e293b] p-6 flex flex-col space-y-8 text-white shadow-xl"
+          className="absolute top-0 pt-20 right-0 w-64 h-full bg-[#310b77] p-6 flex flex-col space-y-8 text-white shadow-xl"
         >
           {links.map((link) => (
             <Link
               key={link.name}
               to={link.path}
               onClick={() => setMenuOpen(false)}
-              className="text-lg py-2 px-3 rounded hover:bg-slate-600 transition   "
+              className="text-lg py-2 px-3   hover:text-yellow-400  hover:translate-x-2 inline-block transition duration-300  "
             >
               {link.name}
             </Link>
