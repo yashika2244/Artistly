@@ -70,7 +70,7 @@ const ArtistOnboarding = () => {
   };
 
   return (
-    <div className="min-h-screen mt-5 flex items-center justify-center bg-white md:p-6 px-1">
+    <div className="min-h-screen md:mt-5 flex items-center justify-center bg-white md:p-6 px-1">
       <form
         onSubmit={handleSubmit(onSubmit)}
         className="bg-white/40 backdrop-blur-xl max-w-lg w-full md:p-8 p-3 rounded-3xl shadow-2xl space-y-2"
